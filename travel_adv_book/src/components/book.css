@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+    font-size: 2rem;
+}
+.book-section{
+    height: 100vh;
+
+}
+
+.body-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.first-part img{
+    margin-bottom: 3rem;
+}
+.second-part img{
+    margin-bottom: 3rem;
+}
+
+.text{
+    margin-top: 2rem;
+    line-height: 1.4rem;
+    margin-left: 1.5rem;
+}  
+ 
+.first-part, .second-part, .third-part{
+    display: flex;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center */
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 0.1px 0.4rem 0.4rem rgb(240, 196, 165); */
+    border-radius: 2rem;
+    width: auto;
+    padding: 2rem;
+    margin-top: -15rem;
+}
+.footer-img{
+    width: 100%;
+    margin: -1.4rem auto;
+}
+#f-img{
+    width: 100%;
+    height: 80%;
+    margin-top: 1.5rem;
+}
+.logos{
+    display: flex;
+    gap: 1rem;
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    width: 100%;
+    gap: 2rem;
+}
+.card-footer img{
+    height: 2rem;
+    width: 2rem;
+}
+.footer-text{
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-text p{
+    color: rgb(141, 141, 141);
+    font-weight: 600;
+}
+.logos{
+    margin: 1rem 0;
+}
+.img-1{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    color: rgb(141, 141, 141);
+    font-weight: 600;
+}
+@media screen and (max-width:1285px){
+    .card{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin: 0 auto;
+    }
+    .book-section{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:750px){
+    .header{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: auto;
+    }
+}
+@media screen and (max-width:600px){
+    /* .header{
+        margin: 0 auto;
+        width: 110%;
+    } */
+    /* .book-section{
+        margin: 0 auto;
+    } */
+    #head-title{
+        font-size: 1.5rem;
+    }
+    #icon{
+        height: 4rem;
+    }
+    .text{
+        margin-top: 0;
+
+    }
+}
+@media screen and (max-width:320px){
+    #head-title{
+        font-size: 1.5rem;
+    }
+    .header p{
+        font-size: 1.5rem;
+    }
+
+
+}
